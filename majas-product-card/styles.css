@@ -1,6 +1,7 @@
 html {
   --color-primary-cream: hsl(30, 38%, 92%);
   --color-primary-darkcyan: hsl(158, 36%, 37%);
+  --color-priamry-hovercyan: hsl(159, 35%, 33%);
 
   --color-neutral-darkblue: hsl(212, 21%, 14%);
   --color-neutral-greyblue: hsl(228, 12%, 48%);
@@ -91,6 +92,10 @@ button svg {
   width: 0.9rem;
   margin: 0 0.5rem 0 0;
   color: var(--color-neutral-White);
+}
+
+button:hover {
+  background-color: var(--color-priamry-hovercyan);
 }
 
 @media (max-width: 48rem) {
