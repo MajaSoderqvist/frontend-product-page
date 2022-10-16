@@ -1,7 +1,7 @@
 html {
   --color-primary-cream: hsl(30, 38%, 92%);
   --color-primary-darkcyan: hsl(158, 36%, 37%);
-  --color-priamry-hovercyan: hsl(159, 35%, 33%);
+  --color-priamry-hovercyan: hsl(160, 35%, 28%);
 
   --color-neutral-darkblue: hsl(212, 21%, 14%);
   --color-neutral-greyblue: hsl(228, 12%, 48%);
@@ -86,6 +86,7 @@ button {
   display: flex;
   justify-content: center;
   font-weight: bold;
+  transition: background-color 0.5s ease-out;
 }
 
 button svg {
