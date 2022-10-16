@@ -99,6 +99,16 @@ button:hover {
   background-color: var(--color-priamry-hovercyan);
 }
 
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--color-primary-darkcyan);
+}
+
 @media (max-width: 48rem) {
   #card-content {
     flex-direction: column;
