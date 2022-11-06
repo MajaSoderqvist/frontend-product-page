@@ -32,6 +32,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  /* justify-content: space-between; */ /* PG style */
+  /* gap: 1.5rem; */ /* PG style */
   padding: 2rem;
 }
 
@@ -118,9 +120,11 @@ button:hover {
   #card-content img {
     width: 100%;
     height: 20rem;
+    /* width: calc(100% + 16px); */ /* PG style */
+    /* object-position: -16px -66px; */ /* PG style */
   }
 
   #card-info {
-    gap: 1.5rem;
+    gap: 1.5rem; /* PG: Bättre att flytta denna utanför media queryn) */
   }
 }
